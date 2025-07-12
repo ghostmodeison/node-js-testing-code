@@ -6,7 +6,7 @@ const HOST = '0.0.0.0'; // 👈 Important
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello from EC2!!\n');
+  res.end('Jenkins!\n');
 });
 
 server.listen(PORT, HOST, () => {
