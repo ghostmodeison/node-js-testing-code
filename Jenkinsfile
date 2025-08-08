@@ -34,6 +34,7 @@ pipeline {
         stage("Push to AWS Elastic-Container-Registry") {
             steps {
                 echo "This is pushing the image to ECR (placeholder)"
+                echo "Jai Shree Ram!"
             }
         }
 
